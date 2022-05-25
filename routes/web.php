@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// NOTE Rotta per l'index
+Route::get('/', 'MovieController@index')->name('home');
+
+// NOTE Rotta per la show
+Route::get('/movie/{id}', 'MovieController@show')->name('movie');
