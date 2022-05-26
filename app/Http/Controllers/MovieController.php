@@ -10,7 +10,7 @@ class MovieController extends Controller
 {
     public function index(){
         
-        // recuperare e salvare dentro MOVIES un'array di oggetti (NO array multidimensionale)
+        // recuperare e salvare dentro $movie un'array di oggetti (NO array multidimensionale)
         // NOTE SELECT * FROM 'movies'
         $movies = Movie::all();
 

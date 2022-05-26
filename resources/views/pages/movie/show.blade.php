@@ -1,7 +1,7 @@
 {{-- SHOW è la pagina che restituisce la stampa specifica di ogni item --}}
 @extends('layout.layout')
 
-@section('title', 'Home')
+@section('title', 'Movie')
 
 @section('content')
 <div class="row">
